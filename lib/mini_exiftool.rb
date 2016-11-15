@@ -49,10 +49,8 @@ class MiniExiftool
       end
     end
   end
-
-  @values = {}
   
-  attr_reader :filename, :errors, :io, :values
+  attr_reader :filename, :errors, :io
 
   opts_accessor :numerical, :composite, :ignore_minor_errors,
     :replace_invalid_chars, :timestamps
